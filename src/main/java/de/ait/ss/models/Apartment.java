@@ -23,15 +23,15 @@ public class Apartment {
     private Long apartmentId;
 
     @Column(nullable = false)
-    @Enumerated(value = EnumType.STRING)
+  //  @Enumerated(value = EnumType.STRING)
     private String type;
 
     @Column(nullable = false)
-    @Enumerated(value = EnumType.STRING)
+  //  @Enumerated(value = EnumType.STRING)
     private String description;
 
     @Column(nullable = false)
-    @Enumerated(value = EnumType.STRING)
+  //  @Enumerated(value = EnumType.STRING)
     private String address;
 
     @Enumerated(EnumType.STRING)
