@@ -13,6 +13,8 @@ import javax.persistence.*;
 @Builder
 @Entity
 public class User {
+
+
     public enum Role {
         ADMIN,
         PARTNER,
